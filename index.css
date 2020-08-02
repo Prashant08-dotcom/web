@@ -1,0 +1,47 @@
+body {
+    background: rgb(245, 246, 250);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#body {
+    background-color: rgb(245, 246, 250);
+    background-image: url(prashant.png);
+    background-position: 50%, 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+#nav {
+    background-color: #070707ED;
+}
+
+.content {
+    margin-top: 4.5rem;
+}
+
+@media(max-width:720px) {
+    .content-p {
+        font-size: 50px;
+    }
+}
